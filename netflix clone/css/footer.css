@@ -1,0 +1,100 @@
+.footer {
+    align-items: flex-end;
+    background-color: #000000; 
+    height: 30rem;
+    width: 100%;
+}
+
+.footer .site-foter {
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    width: 1150px;
+    color: var(--color-primary);
+}
+
+.footer  .site {
+    display: flex;
+    width: 1150px;
+    margin-left: 67px; 
+    margin-bottom: 40px;
+}
+
+.footer .site-foter .site .footer-top-a {
+    margin-left: 5px;;
+    text-decoration: none;
+    justify-content: center;
+    color:var(--color-primary); 
+}
+
+.footer .list {
+    display: flex;
+    justify-content: space-around;     
+    font-size: 13px;
+    position: relative;
+    margin-right: 248px;
+}
+
+.footer .list1 ul {
+    
+    display: contents;
+    justify-content: space-between;
+    height: 250px;
+    list-style: none;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+
+.footer .list1 li {
+    margin-bottom: 20px;
+}
+.footer .list1 a {
+    color: var(--color-primary);
+    text-decoration: none;
+    margin-left: 50px;
+    margin-bottom: 500rem;
+    align-items: center;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .lang {
+    margin-left: 67px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    right: 1100px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: var(--color-primary);
+    border: 1px solid white;
+    border-radius: 2px;
+    height: 60px;
+    width: 150px;
+    text-align: center;
+    font-size: 17px;
+    background-image: url(../img/iconemd100.xcf);
+
+}
+
+.footer .lang-opt {
+    display: flex;
+    width:10px;
+    height:10px;
+    
+    
+    
+
+
+}
+
+.footer  .site-botoom {
+    display: flex;
+    width: 1150px;
+    margin-left: 67px; 
+    margin-bottom: 40px;
+    font-size: 13px;
+}
